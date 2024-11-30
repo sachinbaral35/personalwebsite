@@ -15,17 +15,17 @@
       <div class="container">
         <nav>
           <img src="images/logo.png" class="logo" />
-          <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
-            <li><a href="#">CONTACT </a></li>
-            <i class="fa-regular fa-circle-xmark"></i>
+          <ul id="sidemenu">
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT </a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
           </ul>
-          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
-          <p>UI/UX Designer  fgfgffgtfgfft</p>
+          <p>UI/UX Designer</p>
           <h1>Hi, I'm <span>Sachin</span> <br />Baral From Pokhara</h1>
         </div>
       </div>
@@ -40,10 +40,15 @@
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-              magnam reiciendis assumenda libero est animi provident, voluptates
-              fuga illum, itaque vel molestiae repellendus, tenetur blanditiis.
-              Eaque in accusamus temporibus eligendi?
+              Hi, I'm Sachin Baral from the beautiful city of Pokhara, Nepal.
+              Currently, I am pursuing my studies in Information Technology at
+              Gandaki University. My passion lies in creating intuitive and
+              user-friendly digital experiences, which has led me to explore and
+              develop skills in UI/UX design.I enjoy the process of blending
+              creativity with technology to solve problems and create meaningful
+              interactions for users. I'm constantly learning and striving to
+              grow as a designer, and I'm excited about opportunities to
+              collaborate and contribute to impactful projects.
             </p>
 
             <div class="tab-titles">
@@ -102,11 +107,11 @@
             <i class="fa-solid fa-code"></i>
             <h2>Web Design</h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Exercitationem iure, a doloremque minima accusantium, deleniti
-              fugit architecto voluptates molestias reprehenderit voluptate
-              incidunt consectetur nesciunt inventore corrupti repudiandae
-              doloribus, nisi minus.
+              As part of my college coursework, I took on the exciting challenge
+              of designing a website for a project. This experience allowed me
+              to explore the principles of web design while applying my
+              creativity and technical skills to create an engaging and
+              functional online platform.
             </p>
             <a href="#">Learn more</a>
           </div>
@@ -114,11 +119,11 @@
             <i class="fa-solid fa-crop-simple"></i>
             <h2>UI/UX Design</h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Exercitationem iure, a doloremque minima accusantium, deleniti
-              fugit architecto voluptates molestias reprehenderit voluptate
-              incidunt consectetur nesciunt inventore corrupti repudiandae
-              doloribus, nisi minus.
+              As a UI/UX designer for RMR Foundation, I have had the opportunity
+              to contribute to creating user-friendly and visually engaging
+              digital solutions. My role involves understanding the foundation's
+              mission, goals, and user needs to design intuitive interfaces that
+              enhance the overall user experience.
             </p>
             <a href="#">Learn more</a>
           </div>
@@ -126,11 +131,16 @@
             <i class="fa-brands fa-app-store"></i>
             <h2>Marketing</h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Exercitationem iure, a doloremque minima accusantium, deleniti
-              fugit architecto voluptates molestias reprehenderit voluptate
-              incidunt consectetur nesciunt inventore corrupti repudiandae
-              doloribus, nisi minus.
+              At Aadarsha Traders, I focused on building strong relationships
+              with clients, managing promotional campaigns, and analyzing market
+              trends to identify opportunities for growth. My efforts
+              contributed to enhancing the company’s reach and ensuring customer
+              satisfaction. At Lekhnath TVS, I specialized in promoting the
+              brand within the competitive automotive market. I spearheaded
+              advertising initiatives, organized events, and leveraged digital
+              platforms to attract and retain customers. My ability to combine
+              creative strategies with data-driven insights helped achieve
+              measurable results in sales and brand awareness.
             </p>
             <a href="#">Learn more</a>
           </div>
@@ -148,10 +158,11 @@
             <div class="layer">
               <h3>Website Design</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum modi repudiandae beatae iusto veniam. Veritatis cum
-                laudantium dolores est, natus, fugit numquam in autem voluptate
-                maxime inventore dolorem id quo!
+                As part of my college coursework, I took on the exciting
+                challenge of designing a website for a project. This experience
+                allowed me to explore the principles of web design while
+                applying my creativity and technical skills to create an
+                engaging and functional online platform.
               </p>
               <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
             </div>
@@ -161,10 +172,11 @@
             <div class="layer">
               <h3>UI/UX Design</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
-                adipisci? Saepe harum accusamus eveniet dolorem! Dolores natus
-                repellat distinctio, reprehenderit id incidunt deserunt at, quo,
-                optio enim vel voluptatibus cupiditate?
+                As a UI/UX designer for RMR Foundation, I have had the
+                opportunity to contribute to creating user-friendly and visually
+                engaging digital solutions. My role involves understanding the
+                foundation's mission, goals, and user needs to design intuitive
+                interfaces that enhance the overall user experience.
               </p>
               <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
             </div>
@@ -174,10 +186,16 @@
             <div class="layer">
               <h3>Marketing</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-                dolorum deserunt, molestias obcaecati ea corporis quisquam odio
-                blanditiis autem odit officia soluta cum consequatur magni vitae
-                harum labore perferendis laborum.
+                At Aadarsha Traders, I focused on building strong relationships
+                with clients, managing promotional campaigns, and analyzing
+                market trends to identify opportunities for growth. My efforts
+                contributed to enhancing the company’s reach and ensuring
+                customer satisfaction. At Lekhnath TVS, I specialized in
+                promoting the brand within the competitive automotive market. I
+                spearheaded advertising initiatives, organized events, and
+                leveraged digital platforms to attract and retain customers. My
+                ability to combine creative strategies with data-driven insights
+                helped achieve measurable results in sales and brand awareness.
               </p>
               <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
             </div>
@@ -208,7 +226,7 @@
             <a href="images/cv.pdf" download class="btn btn2">Download Cv</a>
           </div>
           <div class="contact-Right">
-            <form>
+            <form name="submit-to-google-sheet">
               <input type="text" name="Name" placeholder="Your Name" required />
               <input
                 type="email"
@@ -223,6 +241,7 @@
               ></textarea>
               <button type="Submit" class="btn btn2">Submit</button>
             </form>
+            <span id="msg"></span>
           </div>
         </div>
       </div>
@@ -245,6 +264,35 @@
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
       }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxS7IuPjZvo3r4aaTTMx0QnUmgCl9UgkKDa1SiyBgNL7Pe_f9TRSZ3S6vxBLovCiMNB/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const mssg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
     </script>
   </body>
 </html>
